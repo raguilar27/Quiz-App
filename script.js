@@ -1,0 +1,42 @@
+const quizData = [
+  {
+    question: "Who is the main character in Dragon Ball Z?",
+    a: "Gohan",
+    b: "Vegeta",
+    c: "Krillin",
+    d: "Goku",
+    correct: "d",
+  },
+  {
+    question: "Who defeats Cell, during the Cell Saga?",
+    a: "Trunks",
+    b: "Gohan",
+    c: "Goku",
+    d: "Vegeta",
+    correct: "b",
+  },
+  {
+    question: "Where does Goku learn the instant transmission technique?",
+    a: "Planet Namek",
+    b: "Earth",
+    c: "Planet Yardat",
+    d: "Planet Vegeta",
+    correct: "c",
+  },
+  {
+    question: "Who kills Frieza?",
+    a: "Trunks",
+    b: "Vegeta",
+    c: "Piccolo",
+    d: "Goku",
+    correct: "a",
+  },
+  {
+    question: "Who is the prince of all sayians?",
+    a: "Vegeta",
+    b: "Goku",
+    c: "Gohan",
+    d: "Trunks",
+    correct: "a",
+  },
+];
