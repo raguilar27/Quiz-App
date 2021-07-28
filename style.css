@@ -1,0 +1,67 @@
+@import url("http://fonts.cdnfonts.com/css/saiyan-sans");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdb4b;
+  font-family: "Saiyan Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+.question-container {
+  background-color: #fff0d0;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.2);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 2.5rem;
+  color: rgba(255, 0, 0, 0.918);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.5rem;
+  color: black;
+  margin: 1rem 0;
+}
+
+button {
+  color: aliceblue;
+  background-color: #f85b1a;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 1.7rem;
+  width: 100%;
+}
+
+button:hover {
+  background-color: orangered;
+}
